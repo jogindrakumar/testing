@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 200px;
+    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+}
+
+.main-container {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.main-container .navigation {
+    display: flex;
+    padding: -10px;
+    font-size: 1.2rem;
+    justify-content: end;
+    text-align: end;
+}
+
+.main-container .social-links {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    font-size: 1rem;
+}
+
+.main-container .social-links .fab {
+    padding-right: 20px;
+}
+
+.main-container .social-links .fab:hover {
+    color: #28C76F;
+}
+
+.main-container .navigation a {
+    padding: 10px;
+    text-decoration: none;
+    color: #28C76F;
+}
+
+.main-container .navigation a:hover {
+    color: white;
+    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+}
+
+.main-container .personl-info {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-container .personl-info h1 {
+    padding: 20px;
+    font-size: 2.5rem;
+}
+
+.main-container .personl-info h1 span {
+    padding: 10px;
+    border: 1px solid #28C76F;
+}
+
+.main-container .personl-info .first {
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #28C76F;
+}
+
+.main-container .personl-info .second {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #28C76F;
+    color: white;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.main-container .personl-info p {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.main-container .personl-info .social-links {
+    padding-top: 20px;
+}
+
+.main-container .personl-info .social-links .fab {
+    padding-right: 20px;
+}
+
+.main-container .personl-info .social-links .fab:hover {
+    color: #28C76F;
+}
