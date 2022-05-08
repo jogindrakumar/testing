@@ -102,3 +102,185 @@ body {
 .main-container .personl-info .social-links .fab:hover {
     color: #28C76F;
 }
+
+.main-container .about .skills {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-container .about .skills h1 {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.main-container .about .skills h1 span {
+    padding: 10px;
+    border: 1px solid #28C76F;
+}
+
+.main-container .about .skills .first {
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #28C76F;
+}
+
+.main-container .about .skills .second {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #28C76F;
+    color: white;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.main-container .about .skills .skills-icon {
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+.main-container .about .skills .skills-icon .fab {
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-container .about .skills .skills-icon .fab:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    cursor: pointer;
+}
+
+.main-container .about .skills .skills-icon .fa-html5 {
+    background: #F8D800;
+}
+
+.main-container .about .skills .skills-icon .fa-css3 {
+    background: #0396FF;
+}
+
+.main-container .about .skills .skills-icon .fa-bootstrap {
+    background: #9F44D3;
+}
+
+.main-container .about .skills .skills-icon .fa-js {
+    background: #F8D800;
+}
+
+.main-container .about .skills .skills-icon .fa-php {
+    background: #7367F0;
+}
+
+.main-container .about .skills .skills-icon .fa-laravel {
+    background: #EA5455;
+}
+
+.main-container .about .skills .skills-icon .fa-github {
+    background: black;
+}
+
+.main-container .project-head {
+    margin: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-container .project-head .first {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #28C76F;
+    color: white;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 5px;
+}
+
+.main-container .project-head .second {
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #28C76F;
+}
+
+.main-container .project {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 20px;
+    gap: 10px;
+}
+
+.main-container .box {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .box h5 {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.main-container .box img {
+    width: 240px;
+    height: 230px;
+    padding: 20px;
+}
+
+.main-container .box:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.main-container .project .project-1 {
+    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+}
+
+.main-container .project .project-2 {
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+}
+
+.main-container .project .project-3 {
+    background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);
+}
+
+.main-container .project .project-4 {
+    background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+}
+
+.main-container .project .project-5 {
+    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+}
+
+.main-container .project .project-6 {
+    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+}
+
+.main-container .project .project-7 {
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+}
+
+.main-container .project .project-8 {
+    background-image: linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%);
+}
